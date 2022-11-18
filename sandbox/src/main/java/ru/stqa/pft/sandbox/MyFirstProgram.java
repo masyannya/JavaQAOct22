@@ -6,6 +6,14 @@ public class MyFirstProgram {
 
     System.out.println("Hello, Alexei!");
 
+    Square s = new Square(10);
+    System.out.println("Площадь квадрата со стороной " + s.l + " равна " + s.area());
+
+    Rectangle r = new Rectangle(5, 10);
+
+    System.out.println("Площадь квадрата со сторонами " + r.a + " и " + r.b + " равна " + r.area());
+
+
     Point p1 = new Point(9, -1);
     Point p2 = new Point(2, -25);
 
